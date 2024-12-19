@@ -66,7 +66,7 @@ return [
 
     'dialog' => Config::dialog(),
 
-    'dropdown' => Config::dropdown(),
+    'dropdown' => Config::dropdown(['alias'=> 'wui-dropdown']),
 
     'icon' => Config::icon(),
 
